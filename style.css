@@ -1,0 +1,275 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url("images/curled-corner-of-white-paper-on-purple-background-vector-1116576999.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.container{
+  padding-bottom: 127px;
+}
+.block1{
+  /* background-color: lightblue; */
+  max-width: 700px;
+  position: relative;
+
+}
+.block2 {
+	/* background-image: url("bb.jpeg"); */
+	max-width: 700px;
+	position: relative;
+	border: 1px solid;
+	border-right: none;
+}
+.block2 p {
+  font-family: 'Roboto Slab', serif;
+	font-size: 44px;
+	margin-top: -9%;
+	margin-left: 15%;
+	color: #bb0cbb;
+}
+.block2 img {
+	width: 100%;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	max-width: 1314px;
+	margin: auto;
+  position: relative;
+}
+.block1, .block2 {
+	margin-top: 17%;
+	height: 550px;
+}
+.btn {
+	font-size: 27px;
+	border: none;
+	border-radius: 19px;
+	padding: 4px 33px;
+	margin-right: 35px;
+  background-color: #e5e5e5;
+}
+.btn.b2 {
+	color: #c43232;
+	position: absolute;
+	top: 24%;
+	right: 14%;
+}
+.btn.b1 {
+	color: #330bc2;
+	position: absolute;
+	top: 24%;
+	right: 47%;
+}
+.block1 p {
+	text-align: center;
+	font-size: 23px;
+	margin-top: -14px;
+	/* border-up: 1px solid; */
+	padding-bottom: 12px;
+	border-top: 1px solid;
+	border-width: thin;
+	border-height: 14px;
+	max-width: 207px;
+	margin: auto;
+	border-color: #f41717;
+  padding-top: 12px;
+}
+.block1 h2 {
+	text-align: center;
+}
+.block1 img{
+  width: 100%;
+}
+.or {
+	height: 50px;
+	width: 53px;
+	position: absolute;
+	top: 50%;
+	right: 23%;
+}
+.login {
+	height: 400px;
+	background-color: #d7dadb;
+	margin: auto;
+	max-width: 400px;
+	margin-top: 79px;
+	border: 2px solid;
+}
+.user {
+	position: absolute;
+	top: -4%;
+	right: 98%;
+	border: none;
+	border-radius: 19px;
+	font-size: 40px;
+  z-index: 1;
+}
+.name {
+	position: absolute;
+	top: 27%;
+	right: 26%;
+	width: 42%;
+	padding: 8px 7px;
+	border: none;
+	border-radius: 10px;
+}
+.usericon {
+	position: absolute;
+	top: 27%;
+	right: 69%;
+	font-size: 26px;
+	background-color: #fff;
+	border: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.pass {
+	position: absolute;
+	top: 37%;
+	right: 26%;
+	width: 42%;
+	padding: 8px 7px;
+	border: none;
+	border-radius: 10px;
+}
+.passicon {
+	position: absolute;
+	top: 37%;
+	right: 69%;
+	font-size: 26px;
+	background-color: #fff;
+	border: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.logbtn {
+	position: absolute;
+	top: 51%;
+	right: 26%;
+	width: 49%;
+	padding: 5px 6px;
+	font-size: 26px;
+	opacity: 0.7;
+	border-radius: 28px;
+	border: none;
+	background-color: #da1d1d;
+	color: #fff;
+}
+.block3 span {
+	position: absolute;
+	top: 68%;
+	right: 41%;
+	font-size: 18px;
+}
+.btn:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+.logbtn:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+.block3 span:hover {
+	color: red;
+	cursor: pointer;
+}
+.modal {
+	position: absolute;
+	top: 55%;
+	right: 39%;
+	font-size: 24px;
+	background-color: blueviolet;
+	color: #fff;
+	padding: 5px 30px;
+	border: none;
+	border-radius: 21px;
+}
+.modal:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.close {
+	position: absolute;
+	top: 2%;
+	right: 69%;
+	z-index: 1;
+	background-color: rgba(159, 75, 176, 0.93);
+	border: none;
+	border-radius: 18px;
+	font-size: 24px;
+	padding: 0 0;
+}
+.close:hover{
+  color: #dc6868;
+  cursor: pointer;
+}
+.login-page{
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.form{
+  position: relative;
+  z-index: 0;
+  background: rgba(159, 75, 176, 0.69);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  margin-left: -108%;
+  margin-right: 0%;
+  margin-top: -50%;
+
+}
+.form input{
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+
+
+}
+.form button{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.form button:hover,.form button:active{
+  background: #43A047;
+
+}
+.form .message{
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 18px;
+
+}
+.form .message a{
+  color: #56D05B;
+  text-decoration: none;
+}
+.form .message a:hover{
+  box-shadow: 0 0 20px 9px #33FFC0;
+}
+.form .register-form{
+  display: none;
+
+}
